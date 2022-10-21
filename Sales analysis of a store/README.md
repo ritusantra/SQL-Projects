@@ -1,7 +1,7 @@
 # Sales Analysis of a Store
 
 ## Table of Content
-* [Dataset]([#dataset](https://github.com/AndrejPHP/w3schools-database/blob/master/w3schools.sql))
+* [Dataset](https://github.com/AndrejPHP/w3schools-database/blob/master/w3schools.sql)
 * [Introduction](#introduction)
 * [Objective](#objective)
 * [Entity Relationship Diagram](#entity-relationship-diagram)

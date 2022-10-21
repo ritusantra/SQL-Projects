@@ -4,6 +4,7 @@
 * [SQL Challenge Link & Dataset](#sql-challenge-link--dataset)
 * [Introduction](#introduction)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
+* [SQL Solutions](#sql-solutions)
 
 <img src="https://miro.medium.com/max/828/1*_qg3jgz0W4aJ8AQEFyNesw.png" width="350" height="400">
 
@@ -23,7 +24,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 
 <img src="https://miro.medium.com/max/828/1*6-cAt3wHrsK43NiUbdkCzw.png" width="800" height="500">
 
-
+## SQL Solutions
 A. [Data Cleaning](https://github.com/ritusantra/SQL-Projects/blob/main/Pizza%20Runner/Data%20Cleaning.sql) <br>
 B. [Pizza Metric](https://github.com/ritusantra/SQL-Projects/blob/main/Pizza%20Runner/Pizza%20Metrics.sql) <br>
 C. [Runner and Customer Experience](https://github.com/ritusantra/SQL-Projects/blob/main/Pizza%20Runner/Runner%20and%20Customer%20Experience.sql) <br>

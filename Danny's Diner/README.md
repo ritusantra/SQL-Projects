@@ -1,6 +1,6 @@
 ## Danny's Diner
 
-<img src="https://user-images.githubusercontent.com/75059347/197112175-a2ce06ff-03bf-4bfc-84b4-f431fdba8328.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/75059347/197112175-a2ce06ff-03bf-4bfc-84b4-f431fdba8328.png" width="1000" height="5000">
 
 ### SQL Challenge Link & Dataset
 https://8weeksqlchallenge.com/case-study-1/

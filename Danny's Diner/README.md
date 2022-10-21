@@ -23,7 +23,7 @@ Danny has shared 3 key datasets for this case study:
 
 ### Entity Relationship Diagram
 
-<img src="https://user-images.githubusercontent.com/75059347/197111645-65f281cb-3f80-43d8-bb7b-975fa0e50971.png" width="500" height="600">
+<img src="https://user-images.githubusercontent.com/75059347/197111645-65f281cb-3f80-43d8-bb7b-975fa0e50971.png" width="800" height="850">
 
 ### Case Study Questions
 

@@ -1,6 +1,6 @@
 ## Danny's Diner
 
-- [SQL Challenge Link & Dataset]([#SQL-Challenge-Link-&-Dataset](https://github.com/ritusantra/SQL-Projects/blob/main/Danny's%20Diner/README.md#sql-challenge-link--dataset))
+- [SQL Challenge Link & Dataset](#sql-challenge-link--dataset)
 
 <img src="https://user-images.githubusercontent.com/75059347/197112175-a2ce06ff-03bf-4bfc-84b4-f431fdba8328.png" width="350" height="400">
 

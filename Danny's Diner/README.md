@@ -1,5 +1,7 @@
 ## Danny's Diner
 
+![image](https://user-images.githubusercontent.com/75059347/197112175-a2ce06ff-03bf-4bfc-84b4-f431fdba8328.png)
+
 ### SQL Challenge Link & Dataset
 https://8weeksqlchallenge.com/case-study-1/
 
@@ -38,3 +40,11 @@ Each of the following case study questions can be answered using a single SQL st
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
+### Key insights from the analysis
+* A has spend the most amount in the restaurant.
+* B is the most frequent visitor in the restaurant.
+* Ramen is the most purchased item on the menu.
+* The first purchased item by A is sushi, for B it is curry and for C it is ramen.
+* Ramen is the most popular dish for A and C. For B it is curry and sushi.
+* After A became a member, the first item they purchased is curry and B purchased sushi.
+* Before A become a member, they has spend $25 and B has spend $40.

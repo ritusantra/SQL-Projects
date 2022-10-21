@@ -3,7 +3,11 @@
 **Table of Content**
 * [SQL Challenge Link & Dataset](#sql-challenge-link--dataset)
 * [Introduction](#introduction)
-* [Problem Statement](problem-statement)
+* [Problem Statement](#problem-statement)
+* [Entity Relationship Diagram](#entity-relationship-diagram)
+* [Case Study Questions](#case-study-questions)
+* [Key insights from the analysis](#key-insights-from-the-analysis)
+* [SQL Solution](https://github.com/ritusantra/SQL-Projects/blob/main/Danny's%20Diner/Danny's%20Diner.sql)
 
 <img src="https://user-images.githubusercontent.com/75059347/197112175-a2ce06ff-03bf-4bfc-84b4-f431fdba8328.png" width="350" height="400">
 
@@ -53,6 +57,3 @@ Each of the following case study questions can be answered using a single SQL st
 * Ramen is the most popular dish for A and C. For B it is curry and sushi.
 * After A became a member, the first item they purchased is curry and B purchased sushi.
 * Before A become a member, they has spend $25 and B has spend $40.
-
-### SQL Solution
-https://github.com/ritusantra/SQL-Projects/blob/main/Danny's%20Diner/Danny's%20Diner.sql

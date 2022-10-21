@@ -1,3 +1,5 @@
+# Pizza Runner 🍕
+
 SQL Challenge Link: https://8weeksqlchallenge.com/case-study-2/
 
 A. [Data Cleaning](https://github.com/ritusantra/SQL-Projects/blob/main/Pizza%20Runner/Data%20Cleaning.sql) <br>

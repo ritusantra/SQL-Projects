@@ -1,6 +1,3 @@
-This project is a part of SQL Challenge by Danny Ma: https://8weeksqlchallenge.com/case-study-1/
-
-
 ### SQL Challenge Link & Dataset
 https://8weeksqlchallenge.com/case-study-1/
 
@@ -16,7 +13,11 @@ He plans on using these insights to help him decide whether he should expand the
 
 Danny has shared 3 key datasets for this case study:
 
-sales
-menu
-members
-Entity Relationship Diagram
+* sales
+* menu
+* members
+
+### Entity Relationship Diagram
+
+![image](https://user-images.githubusercontent.com/75059347/197111645-65f281cb-3f80-43d8-bb7b-975fa0e50971.png)
+

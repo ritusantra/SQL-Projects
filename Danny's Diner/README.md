@@ -1,4 +1,4 @@
-##Danny's Diner
+## Danny's Diner
 
 ### SQL Challenge Link & Dataset
 https://8weeksqlchallenge.com/case-study-1/

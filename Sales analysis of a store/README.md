@@ -8,7 +8,7 @@
 * [Key insights from the analysis](#key-insights-from-the-analysis)
 * [SQL Solution](https://github.com/ritusantra/SQL-Projects/blob/main/Sales%20analysis%20of%20a%20store/StoreDB.sql)
 
-<img src="https://www.comtecinfo.com/rpa/wp-content/uploads/2017/03/analytics2-01.png" width="350" height="400">
+<img src="https://www.comtecinfo.com/rpa/wp-content/uploads/2017/03/analytics2-01.png" width="500" height="400">
 
 ## Introduction
 

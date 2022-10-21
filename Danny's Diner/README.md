@@ -1,4 +1,4 @@
-## Danny's Diner
+# Danny's Diner
 
 **Table of Content**
 * [SQL Challenge Link & Dataset](#sql-challenge-link--dataset)

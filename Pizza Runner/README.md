@@ -39,7 +39,7 @@ E. [Pricing and Ratings](https://github.com/ritusantra/SQL-Projects/blob/main/Pi
 * In a single order, i.e, for order number 4, maximum of 3 pizzas were delivered
 * 13, 18, 21, 23 hours has peak volumn of orders each day; 11, 19 hours has least volumn
 * Wednesday and Saturday has peak volumn of orders, followed by Thursday, and Friday has least volumn of orders
-* Successfull delievry percentage of runner_id 1 is 100%
+* The delivery success rate of runner_id 1 is 100%
 * With the increase in the number of pizzas ordered, the preparation time also increases
 * Most commonly added extra is Bacon
 * Most common exclusion is Cheese

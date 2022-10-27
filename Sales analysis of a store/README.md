@@ -20,3 +20,10 @@
 
 ## Key insights from the analysis
 
+* **Most expensive product:** Côte de Blaye
+* **Second most expensive product:** Thüringer Rostbratwurst
+* **Chepeat product:** Geitost
+* Customer who spend the most money is **Ernst Handel**
+* **United Package** is the shipper with the maximum of total price of proceed orders followed by **Federal Shipping** and **Speedy Express**
+
+

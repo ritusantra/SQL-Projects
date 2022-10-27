@@ -5,6 +5,7 @@
 * [Introduction](#introduction)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [SQL Solutions](#sql-solutions)
+* [Key Insights](#key-insights)
 
 <img src="https://miro.medium.com/max/828/1*_qg3jgz0W4aJ8AQEFyNesw.png" width="350" height="400">
 

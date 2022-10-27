@@ -1,4 +1,4 @@
-# Sales Analysis of a Store
+# Sales Analysis of a Store 🏬📊
 
 ## Table of Content
 * [Dataset](https://github.com/AndrejPHP/w3schools-database/blob/master/w3schools.sql)

@@ -2,7 +2,6 @@
 
 ## Table of Content
 * [Dataset](https://github.com/AndrejPHP/w3schools-database/blob/master/w3schools.sql)
-* [Introduction](#introduction)
 * [Objective](#objective)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [Key insights from the analysis](#key-insights-from-the-analysis)
@@ -10,9 +9,9 @@
 
 <img src="https://www.comtecinfo.com/rpa/wp-content/uploads/2017/03/analytics2-01.png" width="800" height="400">
 
-## Introduction
-
 ## Objective
+
+To analyse the data of an online store.
 
 ## Entity Relationship Diagram
 

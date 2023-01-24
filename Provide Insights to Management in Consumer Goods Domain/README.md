@@ -30,6 +30,7 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
   2. **fact_manufacturing_cost**: contains the cost incurred in the production of each product
   3. **fact_pre_invoice_deductions**: contains pre-invoice deductions information for each product
   4. **fact_sales_monthly**: contains monthly sales data for each product.<br>
+<br>
 **Note**: The queries required to build the database were already provided.
 
 ## SQL Queries

@@ -1,12 +1,12 @@
 # Provide Insights to Management in Consumer Goods Domain - Codebasics Resume Project Challenge #4 📊📈
 
 ## Table of Content
-* [Introduction]()
-* [Task]()
-* [Data]()
-* [SQL Queries]()
-* [Key Insights]()
-* [Presentation]()
+* [Introduction](#introduction)
+* [Task](#task)
+* [Data](#data)
+* [SQL Queries](#sql-queries)
+* [Key Insights](#key-insights)
+* [Presentation](#presentation)
 * [Project Challenge Link & Dataset](#project-challenge-link--dataset)
 
 ## Introduction
@@ -31,6 +31,7 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
   3. **fact_pre_invoice_deductions**: contains pre-invoice deductions information for each product
   4. **fact_sales_monthly**: contains monthly sales data for each product.<br>
 <br>
+
 **Note**: The queries required to build the database were already provided.
 
 ## SQL Queries

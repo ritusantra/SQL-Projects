@@ -16,6 +16,8 @@ However, the management noticed that they do not get enough insights to make qui
 
 ## Task
 The task is to build SQL query to answer 10 ad hoc requests for which the business needs insights and create a presentation to show the insights to the top-level management.<br>
+<br>
+
 **Note**: **Ad hoc** is a Latin phrase that literally translates to **for this** or **for this situation**. Ad hoc requests are requests come unexpectedly without any prior planning. These requests often require immediate action.
 
 ## Data

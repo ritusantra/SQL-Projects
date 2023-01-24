@@ -41,7 +41,9 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 [SQL Queries](https://github.com/ritusantra/SQL-Projects/blob/main/Provide%20Insights%20to%20Management%20in%20Consumer%20Goods%20Domain/Ad%20Hoc%20Requests%20Queries.sql)
 
 ## Key Insights
+
 ## Presentation
 
 ## Project Challenge Link & Dataset
-https://codebasics.io/event/codebasics-resume-project-challenge
+
+[Project Challenge Link & Dataset](https://codebasics.io/event/codebasics-resume-project-challenge)

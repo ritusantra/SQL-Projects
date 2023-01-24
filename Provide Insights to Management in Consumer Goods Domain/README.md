@@ -15,7 +15,7 @@ Atliq Hardwares (imaginary company) is one of the leading computer hardware prod
 However, the management noticed that they do not get enough insights to make quick and smart data-informed decisions. They want to expand their data analytics team by adding several junior data analysts. Tony Sharma, their data analytics director wanted to hire someone who is good at both tech and soft skills. Hence, he decided to conduct a SQL challenge which will help him understand both the skills.
 
 ## Task
-The task is to build SQL query to answer 10 ad hoc requests for which the business needs insights and create a presentation to show the insights to the top-level management.
+The task is to build SQL query to answer 10 ad hoc requests for which the business needs insights and create a presentation to show the insights to the top-level management.<br>
 **Note:** **Ad hoc** is a Latin phrase that literally translates to **for this** or **for this situation**. Ad hoc requests are requests come unexpectedly without any prior planning. These requests often require immediate action.
 
 ## Data
@@ -30,7 +30,7 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
   2. fact_manufacturing_cost: contains the cost incurred in the production of each product
   3. fact_pre_invoice_deductions: contains pre-invoice deductions information for each product
   4. fact_sales_monthly: contains monthly sales data for each product.
-
+<br>
 **Note:** The queries required to build the database were already provided.
 
 ## SQL Queries

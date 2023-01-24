@@ -42,6 +42,22 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 
 ## Key Insights
 
+1.	The customer 'Atliq Exclusive' operates in 3 regions - APAC, EU, NA. 
+2.	In APAC region it operates its business in - Australia, Bangladesh, India, Indonesia, Japan, New Zealand, Philippines and South Korea.
+3.	The percentage of unique product increase in 2021 vs. 2020 is 36.33%. 
+4.	89 unique products were added in 2021.
+5.	The products are divided into 6 segments - Notebook, Accessories, Peripherals, Desktop, Storage and Networking.
+6.	Notebook, Accessories and Peripherals are the top 3 segments by unique product count.
+7.	Accessories segment has the most increase and Networking segment has the least increase in unique products in 2021 vs 2020.
+8.	'AQ HOME Allin1 Gen 2' has highest manufacturing cost and 'AQ Master wired x1 Ms' has lowest manufacturing cost.
+9.	Top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market are - Flipkart, Viveks, Ezone, Croma, Amazon.
+10.	For the fiscal year, 2020, March was the least performing month and November was the highest performing month.
+11.	Overall for 2019, 2020 and 2021, April was the least performing month and November was the highest performing month.
+12.	Quarter 1 ('September', 'October', 'November') got the maximum total sold quantity.
+13.	Quarter 3 ('March', 'April', 'May') got the minimum total sold quantity.
+14.	'Retailer' channel helped to bring most gross sales i.e., 73.22%, in the fiscal year 2021.
+15.	For fiscal year 2021, 'N & S' division have the highest total sold quantity with products 'AQ Pen Drive 2 IN 1', 'AQ Pen Drive DRC' (Plus) and 'AQ Pen Drive DRC' (Premium) being the top 3 products that have a high total sold quantity.
+
 ## Presentation
 
 ## Project Challenge Link & Dataset

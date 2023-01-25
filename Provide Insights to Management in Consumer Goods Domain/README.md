@@ -5,6 +5,7 @@
 * [Task](#task)
 * [Data](#data)
 * [Approach](#approach)
+* [Tools](#tools)
 * [SQL Queries](#sql-queries)
 * [Key Insights](#key-insights)
 * [Presentation](#presentation)
@@ -46,6 +47,12 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 * Imported the query results and created visuals in Microsoft Power BI
 * Created a presentation in Canva to present the key insights to the stakeholders
 
+## Tools
+
+* MySQL
+* Microsoft Power BI
+* Canva
+
 ## SQL Queries
 
 1. [Data Manipulation](https://github.com/ritusantra/SQL-Projects/blob/main/Provide%20Insights%20to%20Management%20in%20Consumer%20Goods%20Domain/Data%20Manipulation.sql)
@@ -70,7 +77,7 @@ In **APAC** region it operates its business in - **Australia, Bangladesh, India,
 
 ## Presentation
 
-[Presentation Slides]()
+[Presentation Slides](https://github.com/ritusantra/SQL-Projects/blob/main/Provide%20Insights%20to%20Management%20in%20Consumer%20Goods%20Domain/Presentation.pdf)
 
 ## Project Challenge Link & Dataset
 

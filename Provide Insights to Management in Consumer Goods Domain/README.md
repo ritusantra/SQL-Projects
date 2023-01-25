@@ -39,7 +39,12 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 
 ## Approach
 
-
+* Created the database and tables using the script provided.
+* Performed data manipulation in order to correct the spelling of ‘Philippines’ and ‘New Zealand’
+* Analyzed the data and build SQL queries to answer the 10 ad hoc requests using MySQL
+* Exported the results from MySQL into CSV files
+* Imported the query results and created visuals in Microsoft Power BI
+* Created a presentation in Canva to present the key insights to the stakeholders
 
 ## SQL Queries
 
@@ -64,6 +69,8 @@ In **APAC** region it operates its business in - **Australia, Bangladesh, India,
 * For fiscal year 2021, **N & S** division have the **highest** total sold quantity with products **AQ Pen Drive 2 IN 1**, **AQ Pen Drive DRC (Plus)** and **AQ Pen Drive DRC (Premium)** being the **top 3 products** that have a high total sold quantity.
 
 ## Presentation
+
+[Presentation Slides]()
 
 ## Project Challenge Link & Dataset
 

@@ -4,8 +4,8 @@
 * [Introduction](#introduction)
 * [Task](#task)
 * [Data](#data)
-* [Approach](#approach)
 * [Tools](#tools)
+* [Approach](#approach)
 * [SQL Queries](#sql-queries)
 * [Key Insights](#key-insights)
 * [Presentation](#presentation)
@@ -38,6 +38,12 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 
 **Note**: The queries required to build the database were already provided.
 
+## Tools
+
+* MySQL
+* Microsoft Power BI
+* Canva
+
 ## Approach
 
 * Created the database and tables using the script provided.
@@ -46,12 +52,6 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 * Exported the results from MySQL into CSV files
 * Imported the query results and created visuals in Microsoft Power BI
 * Created a presentation in Canva to present the key insights to the stakeholders
-
-## Tools
-
-* MySQL
-* Microsoft Power BI
-* Canva
 
 ## SQL Queries
 

@@ -46,7 +46,8 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 * The customer '**Atliq Exclusive**' operates in 3 regions - **APAC, EU, NA**. 
 In **APAC** region it operates its business in - **Australia, Bangladesh, India, Indonesia, Japan, New Zealand, Philippines** and **South Korea**.
 * **89 unique products** were added in **2021**. As a result, the percentage of unique product increase in 2021 vs. 2020 is **36.33%**. 
-* The products are divided into 6 segments - **Notebook, Accessories, Peripherals, Desktop, Storage and Networking**. **Notebook, Accessories and Peripherals** are the **top 3 segments by unique product count**.
+* The products are divided into 6 segments - **Notebook, Accessories, Peripherals, Desktop, Storage and Networking**. 
+* **Notebook, Accessories and Peripherals** are the **top 3 segments** by unique product count.
 * **Accessories** segment has the **most increase** and **Networking segment** has the **least increase** in unique products in 2021 vs 2020.
 * **AQ HOME Allin1 Gen 2** has **highest manufacturing cost** and **AQ Master wired x1 Ms** has **lowest manufacturing cost**.
 * **Top 5 customers** who received an **average high pre_invoice_discount_pct** for the fiscal year **2021** and in the **Indian market** are - **Flipkart, Viveks, Ezone, Croma, Amazon**.

@@ -4,6 +4,7 @@
 * [Introduction](#introduction)
 * [Task](#task)
 * [Data](#data)
+* [Approach](#approach)
 * [SQL Queries](#sql-queries)
 * [Key Insights](#key-insights)
 * [Presentation](#presentation)
@@ -35,6 +36,10 @@ The task is to build SQL query to answer 10 ad hoc requests for which the busine
 <br>
 
 **Note**: The queries required to build the database were already provided.
+
+## Approach
+
+
 
 ## SQL Queries
 

@@ -8,13 +8,4 @@ In this project, the company is specifically interested in how it can improve re
 
 ## Database
 
-````
-```
-### **`brands`**
 
-| column | data type | description |
-| --- | --- | --- |
-| product_id | varchar | Unique ID for product |
-| brand | varchar | Brand of the product |
-```
-````

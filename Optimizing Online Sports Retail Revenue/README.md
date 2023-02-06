@@ -10,6 +10,11 @@ In this project, the company is specifically interested in how it can improve re
 
 ````
 ```
-Look! You can see my backticks.
+### **`brands`**
+
+| column | data type | description |
+| --- | --- | --- |
+| product_id | varchar | Unique ID for product |
+| brand | varchar | Brand of the product |
 ```
 ````

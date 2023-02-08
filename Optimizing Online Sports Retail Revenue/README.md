@@ -8,12 +8,11 @@ In this project, the company is specifically interested in how it can improve re
 
 ## Database
 
+**Database Used**: PostgreSQL 
 
 
-## [SQL Solution](https://github.com/ritusantra/SQL-Projects/blob/main/Optimizing%20Online%20Sports%20Retail%20Revenue/Optimizing%20Online%20Sports%20Retail%20Revenue%20Analysis.sql)
-
-
+## SQL Solution 
+[SQL Solution](https://github.com/ritusantra/SQL-Projects/blob/main/Optimizing%20Online%20Sports%20Retail%20Revenue/Optimizing%20Online%20Sports%20Retail%20Revenue%20Analysis.sql)
 
 ## Insights
 
-* 

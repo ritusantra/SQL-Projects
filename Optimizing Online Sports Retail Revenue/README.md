@@ -8,7 +8,9 @@ In this project, the company is specifically interested in how it can improve re
 
 ## Database
 
-**Database Used**: PostgreSQL 
+**Database Used**: `PostgreSQL` 
+
+
 
 
 ## SQL Solution 

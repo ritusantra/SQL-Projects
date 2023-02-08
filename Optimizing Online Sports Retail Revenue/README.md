@@ -1,5 +1,12 @@
 # Optimizing Online Sports Retail Revenue 📊🏃‍♂️
 
+## Table of Content
+
+* [Introduction](#introduction)
+* [Database](#database)
+* [SQL Solution](#sql-solutions)
+* [Insights](#insights)
+
 ## Introduction
 
 Sports clothing and athleisure attire is a huge industry, worth approximately [$193 billion in 2021](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/) with a strong growth forecast over the next decade!
@@ -54,8 +61,8 @@ The database provided to us, `sports`, contains five tables, with `product_id`
 | brand | varchar | Brand of the product |
 
 
-## SQL Solution 
-[SQL Solution](https://github.com/ritusantra/SQL-Projects/blob/main/Optimizing%20Online%20Sports%20Retail%20Revenue/Optimizing%20Online%20Sports%20Retail%20Revenue%20Analysis.sql)
+## SQL Solutions 
+[SQL Solutions](https://github.com/ritusantra/SQL-Projects/blob/main/Optimizing%20Online%20Sports%20Retail%20Revenue/Optimizing%20Online%20Sports%20Retail%20Revenue%20Analysis.sql)
 
 ## Insights
 

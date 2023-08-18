@@ -1,0 +1,1 @@
+ABC analysis is is a popular inventory management technique that categorizes inventory into three segments based on the value or importance of each stock-keeping unit (SKU). It is done to understand which segment of the inventory is most valuable or critical to the business. Through this analysis, organizations can rank their inventory and manage them efficiently.

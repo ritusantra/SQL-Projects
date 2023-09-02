@@ -1,4 +1,4 @@
-# Provide Insights to Management in Consumer Goods Domain - Codebasics Resume Project Challenge #4 📊📈
+# Provide Insights to Management in Consumer Goods Domain 📊📈
 
 ## Table of Content
 * [Introduction](#introduction)

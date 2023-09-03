@@ -1,11 +1,11 @@
 # ABC Analysis of Inventory
 
 ## Table of Content
-*[Introduction](#introduction)
-*[Tools](#tools)
-*[Approach](#approach)
-*[Entity Relationship Diagram]()
-*[Step by Step ABC Analysis]()
+* [Introduction](#introduction)
+* [Tools](#tools)
+* [Approach](#approach)
+* [Entity Relationship Diagram]()
+* [Step by Step ABC Analysis]()
 
 
 ## Introduction

@@ -23,6 +23,21 @@ The Entity Relationship Diagram is shown below with the data types.
 
 ## Data Cleansing Steps
 ## Data Exploration
+* **Monday** is the day of the week used for each week date value in the data.
+* Range of weeks which are missing are: **1 to 11** and **36 to 53**.
+* **2020** has the highest number of total transactions.
+* **Europe** has the highest total sales in the month of September compared to all other regions for each month.
+* **Retail** platform has the highest total count of transactions. About 99% of the transactions are from **Retail**.
+* In the year 2020, the sales from Retail platform has reduced and sales from Shopify 
+platform has increased. Until 2020, the highest sales was generated from Retail platform.
+* The percentage of sales from the Couples and Families demographic has increased over time. However, the percentage of sales for the Unknown demographic has decreased.
+* The age band and demographic that contribute the most to retail sales is currently **Unknown**. However, **Retiree Families** and **Retiree Couples** follow in contribution.
+* The highest average transaction size is from **Shopify** platform.
+  
 ## Before & After Analysis
+* The variance in the total sales for the 4 weeks before and after ```2020-06-15``` is -26884188. That means there has been **26884188** reduction in sales after the introduction of sustainable packaging methods. This results in **1.15%** reduction rate.
+
+* The variance in total sales for the 12 weeks before and after ```2020-06-15``` is -152325394. This means there has been a reduction of **152325394** in sales since the introduction of sustainable packaging methods. This significant reduction in sales results in a reduction rate of **2.14%**.
+  
 ## Note
 

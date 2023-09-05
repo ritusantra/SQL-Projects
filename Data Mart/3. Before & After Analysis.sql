@@ -13,18 +13,16 @@ WHERE week_number BETWEEN 20
  AND 27
 AND calendar_year = 2020
 GROUP BY week_date, week_number),
-before_after_sales AS
+before_post_sustainable_packaging_sales AS
 (SELECT 
-SUM(CASE WHEN week_number BETWEEN 20 AND 23 THEN total_sales END) AS before_sales,
-SUM(CASE WHEN week_number BETWEEN 24 AND 27 THEN total_sales END) AS after_sales
+SUM(CASE WHEN week_number BETWEEN 20 AND 23 THEN total_sales END) AS pre_sustainable_packaging_sales,
+SUM(CASE WHEN week_number BETWEEN 24 AND 27 THEN total_sales END) AS post_sustainable_packaging_sales
 FROM 8_weeks_sales
 )
 SELECT 
-before_sales, after_sales, after_sales - before_sales AS sales_reduction_actual_value,
-ROUND(100*(after_sales - before_sales)/before_sales,2) AS sales_reduction_rate
-FROM before_after_sales;
-
-/* "After 4 weeks of introducing sustainable packaging in the Data Mart, we've seen a decrease of 1.15% in sales."*/
+pre_sustainable_packaging_sales, post_sustainable_packaging_sales, post_sustainable_packaging_sales - pre_sustainable_packaging_sales AS sales_variation_actual_value,
+ROUND(100*(post_sustainable_packaging_sales - pre_sustainable_packaging_sales)/pre_sustainable_packaging_sales,2) AS sales_variation_rate
+FROM before_post_sustainable_packaging_sales;
 
 -- 2. What about the entire 12 weeks before and after?
 WITH 24_weeks_sales AS (SELECT 
@@ -33,18 +31,16 @@ FROM clean_weekly_sales
 WHERE week_number BETWEEN 12 AND 36
 AND calendar_year = 2020
 GROUP BY week_date, week_number),
-before_after_sales AS
+before_post_sustainable_packaging_sales AS
 (SELECT 
-SUM(CASE WHEN week_number BETWEEN 12 AND 23 THEN total_sales END) AS before_sales,
-SUM(CASE WHEN week_number BETWEEN 24 AND 36 THEN total_sales END) AS after_sales
+SUM(CASE WHEN week_number BETWEEN 12 AND 23 THEN total_sales END) AS pre_sustainable_packaging_sales,
+SUM(CASE WHEN week_number BETWEEN 24 AND 36 THEN total_sales END) AS post_sustainable_packaging_sales
 FROM 24_weeks_sales
 )
 SELECT 
-before_sales, after_sales, after_sales - before_sales AS sales_reduction_actual_value,
-ROUND(100*(after_sales - before_sales)/before_sales,2) AS sales_reduction_rate
-FROM before_after_sales;
-
-/* After 12 weeks of introducing sustainable packaging in the Data Mart, we've seen a decrease of 2.14% in sales.*/
+pre_sustainable_packaging_sales, post_sustainable_packaging_sales, post_sustainable_packaging_sales - pre_sustainable_packaging_sales AS sales_variation_actual_value,
+ROUND(100*(post_sustainable_packaging_sales - pre_sustainable_packaging_sales)/pre_sustainable_packaging_sales,2) AS sales_variation_rate
+FROM before_post_sustainable_packaging_sales;
 
 -- 3. How do the sale metrics for these 2 periods before and after compare with the previous years in 2018 and 2019?
 
@@ -55,17 +51,17 @@ FROM clean_weekly_sales
 WHERE week_number BETWEEN 20
  AND 27
 GROUP BY calendar_year, week_number),
-before_after_sales AS
+before_post_sustainable_packaging_sales AS
 (SELECT calendar_year,
-SUM(CASE WHEN week_number BETWEEN 20 AND 23 THEN total_sales END) AS before_sales,
-SUM(CASE WHEN week_number BETWEEN 24 AND 27 THEN total_sales END) AS after_sales
+SUM(CASE WHEN week_number BETWEEN 20 AND 23 THEN total_sales END) AS pre_sustainable_packaging_sales,
+SUM(CASE WHEN week_number BETWEEN 24 AND 27 THEN total_sales END) AS post_sustainable_packaging_sales
 FROM 8_weeks_sales
 GROUP BY calendar_year
 )
 SELECT calendar_year,
-before_sales, after_sales, after_sales - before_sales AS sales_reduction_actual_value,
-ROUND(100*(after_sales - before_sales)/before_sales,2) AS sales_reduction_rate
-FROM before_after_sales;
+pre_sustainable_packaging_sales, post_sustainable_packaging_sales, post_sustainable_packaging_sales - pre_sustainable_packaging_sales AS sales_variation_actual_value,
+ROUND(100*(post_sustainable_packaging_sales - pre_sustainable_packaging_sales)/pre_sustainable_packaging_sales,2) AS sales_variation_rate
+FROM before_post_sustainable_packaging_sales;
 
 -- (ii)
 WITH 24_weeks_sales AS (SELECT 
@@ -73,15 +69,14 @@ calendar_year, week_number, SUM(sales) AS total_sales
 FROM clean_weekly_sales
 WHERE week_number BETWEEN 12 AND 36
 GROUP BY calendar_year, week_number),
-before_after_sales AS
+before_post_sustainable_packaging_sales AS
 (SELECT calendar_year,
-SUM(CASE WHEN week_number BETWEEN 12 AND 23 THEN total_sales END) AS before_sales,
-SUM(CASE WHEN week_number BETWEEN 24 AND 36 THEN total_sales END) AS after_sales
+SUM(CASE WHEN week_number BETWEEN 12 AND 23 THEN total_sales END) AS pre_sustainable_packaging_sales,
+SUM(CASE WHEN week_number BETWEEN 24 AND 36 THEN total_sales END) AS post_sustainable_packaging_sales
 FROM 24_weeks_sales
 GROUP BY calendar_year
 )
 SELECT calendar_year,
-before_sales, after_sales, after_sales - before_sales AS reduction_actual_value,
-ROUND(100*(after_sales - before_sales)/before_sales,2) AS reduction_rate
-FROM before_after_sales;
-
+pre_sustainable_packaging_sales, post_sustainable_packaging_sales, post_sustainable_packaging_sales - pre_sustainable_packaging_sales AS sales_variation_actual_value,
+ROUND(100*(post_sustainable_packaging_sales - pre_sustainable_packaging_sales)/pre_sustainable_packaging_sales,2) AS sales_variation_rate
+FROM before_post_sustainable_packaging_sales;

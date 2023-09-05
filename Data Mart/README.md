@@ -3,6 +3,7 @@
 ## Table of Content
 * [Introduction](#introduction)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
+* [Tools](#tools)
 * [Data Cleansing](#data-cleansing)
 * [Data Exploration](#data-exploration)
 * [Before & After Analysis](#before--after-analysis)
@@ -21,6 +22,9 @@ For this case study there is only a single table: `data_mart.weekly_sales`<br>
 The Entity Relationship Diagram is shown below with the data types.
 
 ![image](https://github.com/ritusantra/SQL-Projects/assets/75059347/073f7717-2486-40ab-b9fe-9c6bcf024ab3)
+
+## Tools
+* MySQL
 
 ## Data Cleansing
 * The format of the **week_date** column was in ```VARCHAR(7)``` during table creation. Using ```STR_TO_DATE``` funtion in the ```SELECT``` statement it was converted into ```DATE``` format.

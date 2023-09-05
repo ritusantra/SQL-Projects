@@ -1,16 +1,12 @@
 # Pizza Runner 🍕
 
 ## Table of Content
-* [SQL Challenge Link & Dataset](#sql-challenge-link--dataset)
 * [Introduction](#introduction)
+* [Task](#task)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [SQL Solutions](#sql-solutions)
 * [Key Insights](#key-insights)
-
-<img src="https://miro.medium.com/max/828/1*_qg3jgz0W4aJ8AQEFyNesw.png" width="350" height="400">
-
-## SQL Challenge Link & Dataset
-https://8weeksqlchallenge.com/case-study-2/
+* [Note](#note)
 
 ## Introduction
 Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
@@ -20,6 +16,9 @@ Danny was scrolling through his Instagram feed when something really caught his 
 Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire — so he had one more genius idea to combine with it — he was going to Uberize it — and so Pizza Runner was launched!
 
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
+
+## Task
+The task is to clean the data and apply some basic calculations so Danny can better direct his runners and optimise Pizza Runner’s operations.
 
 ## Entity Relationship Diagram
 
@@ -46,3 +45,5 @@ E. [Pricing and Ratings](https://github.com/ritusantra/SQL-Projects/blob/main/Pi
 * Most common exclusion is Cheese
 * To prepare Meatlovers pizza, 10 ingredients are required, and for Vegetarian pizza 6 ingredients are required.
 
+## Note
+This project is one of the [SQL challenges](https://8weeksqlchallenge.com/case-study-2/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/).

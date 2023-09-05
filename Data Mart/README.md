@@ -3,9 +3,10 @@
 ## Table of Content
 * [Introduction](#introduction)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
-* [Data Cleansing Steps](#data-cleansing-steps)
+* [Data Cleansing](#data-cleansing)
 * [Data Exploration](#data-exploration)
 * [Before & After Analysis](#before--after-analysis)
+* [SQL Queries](#sql-queries)
 * [Note](#note)
 
 ## Introduction
@@ -19,9 +20,22 @@ Danny needs your help to quantify the impact of this change on the sales perform
 For this case study there is only a single table: `data_mart.weekly_sales`<br>
 The Entity Relationship Diagram is shown below with the data types.
 
-![image](https://github.com/ritusantra/SQL-Projects/assets/75059347/4433c1bc-ca79-4c88-a9de-e8da4b3f5ddf)
+![image](https://github.com/ritusantra/SQL-Projects/assets/75059347/073f7717-2486-40ab-b9fe-9c6bcf024ab3)
 
-## Data Cleansing Steps
+## Data Cleansing
+* The format of the **week_date** column was in ```VARCHAR(7)``` during table creation. Using ```STR_TO_DATE``` funtion in the ```SELECT``` statement it was converted into ```DATE``` format.
+* The data type was converted in the ```SELECT``` statement and hence ```CTE``` was created as **sales_data** to reuse the ```SELECT``` statement for further data manipulations.
+* Functions like ```WEEK()```, ```MONTH()``` and ```YEAR()``` were used to find the **week_number** **month_number** and **calendar_year** respectively.
+* New columns **age_band** and **demographic** were added using ```CASE``` statement to classify customers based on **segment**
+* Replaced all the ```NULL``` string values with an **unknown** string value in the original segment column as well as the new **age_band** and **demographic** columns.
+* Generated a new **avg_transaction** column as the sales value divided by transactions rounded to 2 decimal places for each record.
+* Created new table **clean_weekly_sales** with the above modifications. This **clean_weekly_sales** table is further used for the **Data Exploration** and **Before & After Analysis**.
+
+The new table **clean_weekly_sales** with clean data is shown below with the data types.
+
+![image](https://github.com/ritusantra/SQL-Projects/assets/75059347/bb9476f6-2bc1-4103-848f-8ec5ba2932ff)
+
+
 ## Data Exploration
 * **Monday** is the day of the week used for each week date value in the data.
 * Range of weeks which are missing are: **1 to 11** and **36 to 53**.
@@ -38,6 +52,11 @@ platform has increased. Until 2020, the highest sales was generated from Retail 
 * The variance in the total sales for the 4 weeks before and after ```2020-06-15``` is -26884188. That means there has been **26884188** reduction in sales after the introduction of sustainable packaging methods. This results in **1.15%** reduction rate.
 
 * The variance in total sales for the 12 weeks before and after ```2020-06-15``` is -152325394. This means there has been a reduction of **152325394** in sales since the introduction of sustainable packaging methods. This significant reduction in sales results in a reduction rate of **2.14%**.
+
+## SQL Queries
+* [Data Cleansing](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/1.%20Data%20Cleansing.sql)
+* [Data Exploration](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/2.%20Data%20Exploration.sql)
+* [Before & After Analysis](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/3.%20Before%20%26%20After%20Analysis.sql)
   
 ## Note
-
+This project is one of the [SQL challenges](https://8weeksqlchallenge.com/case-study-5/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/).

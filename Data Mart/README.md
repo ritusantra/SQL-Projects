@@ -27,7 +27,7 @@ The Entity Relationship Diagram is shown below with the data types.
 * MySQL
 
 ## Data Cleansing
-* The format of the **week_date** column was in ```VARCHAR(7)``` during table creation. Using ```STR_TO_DATE``` funtion in the ```SELECT``` statement it was converted into ```DATE``` format.
+* The data type of the **week_date** column was ```VARCHAR(7)``` during table creation. Using ```STR_TO_DATE``` funtion in the ```SELECT``` statement it was converted into ```DATE``` format.
 * The data type was converted in the ```SELECT``` statement and hence ```CTE``` was created as **sales_data** to reuse the ```SELECT``` statement for further data manipulations.
 * Functions like ```WEEK()```, ```MONTH()``` and ```YEAR()``` were used to find the **week_number** **month_number** and **calendar_year** respectively.
 * New columns **age_band** and **demographic** were added using ```CASE``` statement to classify customers based on **segment**

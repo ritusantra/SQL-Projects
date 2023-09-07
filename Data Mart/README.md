@@ -7,6 +7,7 @@
 * [Data Cleansing](#data-cleansing)
 * [Data Exploration](#data-exploration)
 * [Before & After Analysis](#before--after-analysis)
+* [Bonus Question](#bonus-question)
 * [SQL Queries](#sql-queries)
 * [Note](#note)
 
@@ -57,10 +58,20 @@ platform has increased. Until 2020, the highest sales was generated from Retail 
 
 * The variance in total sales for the 12 weeks before and after ```2020-06-15``` is -152325394. This means there has been a reduction of **152325394** in sales since the introduction of sustainable packaging methods. This significant reduction in sales results in a reduction rate of **2.14%**.
 
+## Bonus Question
+
+Which areas of the business have the **highest negative impact** in **sales metrics performance** in **2020** for the **12 week before and after** period?
+
+The business areas with the **highest negative impact** in **sales metrics performance** in **2020** for the **12 week before and after** period are **Age Band** and **Demographic**.
+
+Additionally, the business areas with the **positive impact** in **sales metrics performance** in **2020** for the **12 week before and after** period are **Customer Type**, **Region** and **Platform**. There is a growth in sales rate for **Shopify** platform, **Europe** region and **New** customer type during this period.
+
+
 ## SQL Queries
 * [Data Cleansing](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/1.%20Data%20Cleansing.sql)
 * [Data Exploration](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/2.%20Data%20Exploration.sql)
 * [Before & After Analysis](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/3.%20Before%20%26%20After%20Analysis.sql)
+* [Bonus Question](https://github.com/ritusantra/SQL-Projects/blob/main/Data%20Mart/4.%20Bonus%20Question.sql)
   
 ## Note
 This project is one of the [SQL challenges](https://8weeksqlchallenge.com/case-study-5/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/).

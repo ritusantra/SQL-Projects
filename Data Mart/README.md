@@ -60,7 +60,7 @@ platform has increased. Until 2020, the highest sales was generated from Retail 
 
 ## Bonus Question
 
-Which areas of the business have the **highest negative impact** in **sales metrics performance** in **2020** for the **12 week before and after** period?
+### *Which areas of the business have the **highest negative impact** in **sales metrics performance** in **2020** for the **12 week before and after** period?*
 
 The business areas with the **highest negative impact** in **sales metrics performance** in **2020** for the **12 week before and after** period are **Age Band** and **Demographic**.
 

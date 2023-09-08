@@ -54,6 +54,9 @@ platform has increased. Until 2020, the highest sales was generated from Retail 
 * The highest average transaction size is from **Shopify** platform.
   
 ## Before & After Analysis
+**Before & After Analysis** method is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
+Here ```2020-06-15``` is considered as the baseline week where the Data Mart sustainable packaging changes came into effect. 
+
 * The variance in the total sales for the 4 weeks before and after ```2020-06-15``` is -26884188. That means there has been **26884188** reduction in sales after the introduction of sustainable packaging methods. This results in **1.15%** reduction rate.
 
 * The variance in total sales for the 12 weeks before and after ```2020-06-15``` is -152325394. This means there has been a reduction of **152325394** in sales since the introduction of sustainable packaging methods. This significant reduction in sales results in a reduction rate of **2.14%**.

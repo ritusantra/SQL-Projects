@@ -239,7 +239,7 @@ CALL auto_select();
 
 -- Procedure to combine this two procedure and get the monthly report
 DELIMITER $$
-CREATE PROCEDURE fast2(m int, y int)
+CREATE PROCEDURE report(m int, y int)
 BEGIN
 	CALL monthly_sales_4(m,y);
 	CALL auto_select();
@@ -247,6 +247,6 @@ END$$
 DELIMITER ;
 
 -- Execute the procedure with year and month for generating the report
-CALL fast2(3,2021);
+CALL report(3,2021);
 
 

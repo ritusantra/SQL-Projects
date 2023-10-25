@@ -10,8 +10,10 @@
 * [Note](#note)
 
 ## Introduction
+The aim of the project is to assist the merchandising team in analyzing their sales performance and generate a basic financial report to share with the wider business. The analysis is performed at the product, sales, and transactions level and a reporting solution has been developed to automate the end entire analysis and reporting process.
 
 ## Entity Relationship Diagram
+
 
 ## Tools
 MySQL

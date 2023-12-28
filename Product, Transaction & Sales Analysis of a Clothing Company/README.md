@@ -10,15 +10,22 @@
 * [Note](#note)
 
 ## Introduction
-The aim of the project is to assist the merchandising team in analyzing their sales performance and generate a basic financial report to share with the wider business. The analysis is performed at the product, sales, and transactions level and a reporting solution has been developed to automate the end entire analysis and reporting process.
+The project aims to assist the merchandising team in analyzing their sales performance and generate a basic financial report to share with the wider business. The analysis is performed at the product, sales, and transactions level and a reporting solution has been developed to automate the end entire analysis and reporting process.
 
 ## Entity Relationship Diagram
+``product_details`` table includes all information about the entire range of products.
+
+``Sales`` table contains product-level information for all the transactions made for Balanced Tree including quantity, price, percentage discount, member status, a transaction ID, and also the transaction timestamp.
+
+
+![image](https://github.com/ritusantra/SQL-Projects/assets/75059347/b469cad7-9f65-4202-8efc-7caac805e347)
 
 
 ## Tools
 MySQL
 
 ## Methodology
+
 
 ## SQL Queries
 1. [Product Analysis](https://github.com/ritusantra/SQL-Projects/blob/main/Product%2C%20Transaction%20%26%20Sales%20Analysis%20of%20a%20Clothing%20Company/1.%20Product%20Analysis.sql)

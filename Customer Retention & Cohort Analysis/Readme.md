@@ -3,6 +3,12 @@
 [Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDk5NTg3NzQtZDk3NS00ZjA5LTllNTEtM2NiNDUxZTYxYTU2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Methodology
+1. Created SQL query to calculate the rate of rentention and churn from the orders transaction table
+2. Created a view on top of the SQL query
+3. Connected to Power BI and imported the data from the database view using Import connectivity mode
+4. Published the report to Power BI service
+
+## Calculation Method
 1. Get the first_visit_month of the Customer
 2. Get the visit_month of the Customer
 3. Join the two tables and use case when to calculate the count of customers for each month_diff and first_month

@@ -22,7 +22,7 @@ The goal of this project is to gain insights into customer behavior by analyzing
 * Microsoft Power BI
   
 ## Cohort Analysis 
-* [SQL Query]()
+* [SQL Query](https://github.com/ritusantra/SQL-Projects/blob/main/Customer%20Retention%20%26%20Cohort%20Analysis/Customer%20Retention%20%26%20Cohort%20Analysis.sql)
 * [Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDk5NTg3NzQtZDk3NS00ZjA5LTllNTEtM2NiNDUxZTYxYTU2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Methodology

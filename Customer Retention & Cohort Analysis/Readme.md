@@ -40,5 +40,11 @@ The goal of this project is to gain insights into customer behavior by analyzing
 * **Calculate the Churn Rate**: Compute the churn rate as the complement of the retention rate, which is `100% - retention rate`.
 
 ## Insights
-* 
+* Retention rates increase starting from the 3rd cohort and continue to rise.
+* Most cohorts show a higher retention rate by the end of the year.
+* Cohort 3, 5, and 7 has spend the highest for consecutive monthly.
+* New customers generally spend more than repeat customers. To delve deeper, we can consider analyzing the following factors:
+  - Product quality
+  - Discounts and offers available to repeat customers
+  - Effectiveness of marketing campaigns aimed at acquiring new customers
 

@@ -17,34 +17,28 @@ Applications:
 ## Objective
 The goal of this project is to gain insights into customer behavior by analyzing their initial purchase patterns. Retention and churn analysis has been conducted by organizing and examining data according to the month of the first purchase and tracking subsequent purchase activity over time.
 
-
-## Cohort Analysis Dashboard
-[Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDk5NTg3NzQtZDk3NS00ZjA5LTllNTEtM2NiNDUxZTYxYTU2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+## Tools
+* Microsoft SQL Server
+* Microsoft Power BI
+  
+## Cohort Analysis 
+* [SQL Query]()
+* [Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDk5NTg3NzQtZDk3NS00ZjA5LTllNTEtM2NiNDUxZTYxYTU2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Methodology
-1. Created SQL query to calculate the rate of rentention and churn from the orders transaction table
-2. Created a view on top of the SQL query
-3. Connected to Power BI and imported the data from the database view using Import connectivity mode
-4. Published the report to Power BI service
+* Developed a SQL query to calculate retention and churn rates from the orders transaction data.
+* Constructed a view based on the SQL query for streamlined access and analysis.
+* Formulated an additional SQL query to evaluate new vs repeat customer retention and spending patterns.
+* Integrated with Power BI, importing data from SQL Server using Import connectivity mode.
+* Published the finalized report to the Power BI service.
 
 ## Calculation Method
-1. Get the first_visit_month of the Customer
-2. Get the visit_month of the Customer
-3. Join the two tables and use case when to calculate the count of customers for each month_diff and first_month
-4. Retention rate 
-5. Churn rate is (100 - rentention rate)
+* **Retrieve the First Visit Month for Each Customer**: Determine the initial month when each customer first visited by examining the earliest visit date recorded for each customer.
+* **Retrieve the Visit Month for Each Customer**: Obtain the month of every visit for each customer from the records.
+* **Join the Two Sets of Data**: Combine the data from the first visit month with the visit months for each customer. Use a `CASE WHEN` statement to calculate the number of customers for each difference in months (`month_diff`) and the first visit month (`first_month`).
+* **Calculate the Retention Rate**: Determine the retention rate by analyzing how many customers return in subsequent months compared to the total number of customers who first visited in each month.
+* **Calculate the Churn Rate**: Compute the churn rate as the complement of the retention rate, which is `100% - retention rate`.
 
-## SQL Query Result
-### Retention Analysis
-![image](https://github.com/user-attachments/assets/d026576d-254e-407c-9979-c1f670367863)
-
-### Churn Analysis
-![image](https://github.com/user-attachments/assets/cf4c1125-f6c2-4771-85bf-f7e7044158e4)
-
-## Power BI Dashboard
-### Retention Analysis
-![image](https://github.com/user-attachments/assets/07b4f456-3edd-40b5-90b9-418dea65f425)
-
-### Churn Analysis
-![image](https://github.com/user-attachments/assets/6da9712f-d60f-4701-b1ca-7576c8c70239)
+## Insights
+* 
 
